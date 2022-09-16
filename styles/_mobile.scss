@@ -1,0 +1,41 @@
+.header {
+    &__list {
+        overflow-x: scroll;
+    }
+}
+
+.pickup {
+    flex-direction: column;
+    padding-top: 140px;
+
+    & article {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.container {
+    flex-direction: column;
+    & main {
+        width: 100%;
+    }
+
+    & aside {
+        width: 100%;
+        padding: 0;
+        & section {
+            & article {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.content {
+    flex-direction: column;
+
+    & .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
